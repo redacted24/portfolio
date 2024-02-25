@@ -21,7 +21,7 @@ Light Gold: #F0B537
 Black: #0E0E17
 
 ### Old
-![color palette](./site/image-2.png)
+<img src='./site/image-1.png' alt='Color palette wheel' width='200'/>
 Brown: #814929
 Beige: #BCA07B
 White: #DBD2CA
