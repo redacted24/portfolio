@@ -9,7 +9,6 @@ Cyberpunk 2077 Themed
 Images and colors inspired from an article post by https://dribbble.com/shots/21534554-Cyberpunk-2077-PPT-Template
 
 ### Main
-<img src='./site/image-1.png' alt='Color palette wheel' width='200'/>
 - Light Red: #F75049
 - Cyan: #55ead4
 - Gray: #D6D0D0
