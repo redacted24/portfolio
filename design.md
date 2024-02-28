@@ -63,4 +63,4 @@ Images and colors inspired from an article post by https://dribbble.com/shots/21
 # Icons SVGs
 Github icon: https://icons8.com/icons/set/github
 Email icon: https://icons8.com/icons/set/email
-
+Spaceship!: https://www.svgrepo.com/svg/524894/rocket-2?edit=true
