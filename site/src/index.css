@@ -31,7 +31,7 @@ body {
     background-color: var(--darkBackground);
     height: 2485px;
 
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .spaceEvenly {
@@ -40,12 +40,16 @@ body {
     align-items: center;
 }
 
+.flex {
+    display: flex;
+}
+
 /* Navbar */
 
 
-div {
+/* div {
     border: 1px red solid;
-}
+} */
 
 
 .nav1 {
@@ -141,6 +145,8 @@ div {
 #codeBox {
     height: 661px;
     width: 538px;
+    margin-left: 400px;
+    margin-top: 120px;
     border: 4px solid rgba(247, 80, 73, 0.75);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
