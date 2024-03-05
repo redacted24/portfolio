@@ -43,6 +43,20 @@ const Front = () => {
                     <img src='../../assets/photome.jpg' alt='photo of me' id='myPhoto'/>
                 </div>
             </div>
+
+            {/* Projects */}
+            <div>
+                <h2 className="headings">Projects</h2>
+                <div>
+                    <div className="cell">
+                        <div className="celltext">
+                            <h2>Duel Vision</h2>
+                            <p>As a team</p>
+                            dfsaf
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

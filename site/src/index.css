@@ -34,6 +34,19 @@ body {
     overflow-x: hidden;
 }
 
+li {
+    list-style-image: url('../assets/bulletpoint.svg');
+}
+
+li::marker {
+    font-size: 2rem;
+}
+
+/* div {
+
+    border: 1px red solid;
+} */
+
 .spaceEvenly {
     display: flex;
     justify-content: space-evenly;
@@ -61,6 +74,7 @@ body {
     font-weight: 500;
     line-height: 80px;
     margin-top: 150px;
+    margin-bottom: 75px;
     text-align: center;
 }
 
@@ -68,13 +82,8 @@ body {
     font-family: 'Gotham Medium';
 }
 
-/* Navbar */
 
-
-/* div {
-    border: 1px red solid;
-} */
-
+/* Non-global classes */
 
 .nav1 {
     display: flex;
@@ -94,6 +103,20 @@ body {
     width: 500px;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.cell {
+    height: 384px;
+    width: 397px;
+    background-image: url('../../assets/cell_svg.svg');
+    background-repeat: no-repeat;
+    border: 1px solid red;
+}
+
+.celltext {
+    border: 2px solid cyan;
+    margin-left: 38px;
+    margin-top: 97px;
 }
 
 /* .decoration {
