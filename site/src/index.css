@@ -40,8 +40,32 @@ body {
     align-items: center;
 }
 
+.font24px {
+    font-size: 24px;
+}
+
 .flex {
     display: flex;
+}
+
+.redGlow {
+    color: var(--lightRed);
+    text-shadow: 0px 0px 3.9px #F75049;
+}
+
+.headings {
+    color: var(--lightRed);
+    text-shadow: 0px 0px 3.9px #F75049;
+    font-family: 'Gotham Medium';
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.gotham {
+    font-family: 'Gotham Medium';
 }
 
 /* Navbar */
@@ -151,7 +175,14 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.redGlow {
-    color: var(--lightRed);
-    text-shadow: 0px 0px 3.9px #F75049;
+#myPhoto {
+
+}
+
+#aboutmep1 {
+    width: 900px;
+}
+
+#aboutmep3 {
+    width: 900px;
 }
