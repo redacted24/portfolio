@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../assets/font/Orbitron-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/font/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    --white: #FFFFFF;
+    --darkBackground: #0E0E17;
+
+}
+
+/* Navbar */
+/* 
+div {
+    border: 2px red solid;
+} */
+
+.nav1 {
+    display: flex;
+    height: 65px;
+    padding: 10px;
+    justify-content: space-between;
+    color: var(--white);
+    background: var(--darkBackground);
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.nav2 {
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .decoration {
+    position: absolute;
+    opacity: 0.10;
+    color: #FFFFFF;
+    font-family: Orbitron;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 137px;
+    height: 142px;
+
+    top: 0px;
+    left: 66px;
+    
+} */
+
+#navSocials {
+    display: flex;
+    margin-right: 30px;
+    width: 195px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navHome {
+    height: 103px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
