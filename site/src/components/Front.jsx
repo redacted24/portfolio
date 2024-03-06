@@ -1,8 +1,10 @@
 import Cell from '../components/smaller_components/Cell'
+import DisplayDivs from '../components/smaller_components/DisplayDivs'
 
 const Front = () => {
     return (
         <div id='frontContainer'>
+            <DisplayDivs/>
             <img src='../../assets/bigRadial.png' alt='bigRadial.png' id='bigRadial'/>
             <img src='../../assets/smallRadial.png' alt='smallRadial.png' id='smallRadial'/>
 
@@ -25,7 +27,10 @@ const Front = () => {
 
             {/* About Me */}
             <div>
-                <h2 className="headings" >About me</h2>
+                <div className='headings'>
+                    <img src="../../assets/separation.svg" alt="separator" className='separator'/>
+                    <h2>About me</h2>
+                </div>
                 <div className="gotham font24px spaceEvenly">
                     <div>
                         <p id='aboutmep1'>I am currently a student at <span className="redGlow">Marianopolis College</span> looking to study SE at UWaterloo.</p>
@@ -47,12 +52,15 @@ const Front = () => {
             </div>
 
             {/* Projects Cells */}
-            <div>
-                <h2 className="headings">Projects</h2>
+        <div>
+            <div className='headings'>
+                    <img src="../../assets/separation.svg" alt="separator" className='separator'/>
+                    <h2>Projects</h2>
+                </div>
                 <div id='projects'>
-                    <Cell title="Duel Vision" description="As a team, built a multiplayer game inspired from the classical spaceship game, with a twist: instead of controlling the spaceship with arrow keys, you control it with your hand." skills={["React.js", "Javascript"]} bookmarked={true}/>
-                    <Cell title="CodeML Exo" description="As a team, built an ML model trained to predict bus ridership on buses where sensor data is missing." skills={["Python", "Tensorflow", "KerasTuner", "Pandas", "Numpy"]}/>
-                    <Cell title="SAP Mechanic" description="As part of ConuHacks 2024, our team built a web-based internal application for optimizing scheduling times of an auto repair shop while reducing losses." skills={["React.js", "Javascript"]}/>
+                    <Cell title="Duel Vision" description="As a team, built a multiplayer game inspired from the classical spaceship game, with a twist: instead of controlling the spaceship with arrow keys, you control it with your hand." skills={["React.js", "Javascript"]} link="https://github.com/redacted24/duelvision" bookmarked={true}/>
+                    <Cell title="CodeML Exo" link="https://github.com/redacted24/codeml" description="As a team, built an ML model trained to predict bus ridership on buses where sensor data is missing." skills={["Python", "Tensorflow", "KerasTuner", "Pandas", "Numpy"]}/>
+                    <Cell title="SAP Mechanic" link="https://github.com/sivabalansm/conuhacks" description="As part of ConuHacks 2024, our team built a web-based internal application for optimizing scheduling times of an auto repair shop while reducing losses." skills={["React.js", "Javascript"]}/>
                 </div>
             </div>
         </div>
