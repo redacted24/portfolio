@@ -1,3 +1,5 @@
+import Cell from '../components/smaller_components/Cell'
+
 const Front = () => {
     return (
         <div id='frontContainer'>
@@ -44,17 +46,13 @@ const Front = () => {
                 </div>
             </div>
 
-            {/* Projects */}
+            {/* Projects Cells */}
             <div>
                 <h2 className="headings">Projects</h2>
-                <div>
-                    <div className="cell">
-                        <div className="celltext">
-                            <h2>Duel Vision</h2>
-                            <p>As a team</p>
-                            dfsaf
-                        </div>
-                    </div>
+                <div id='projects'>
+                    <Cell title="Duel Vision" description="As a team, built a multiplayer game inspired from the classical spaceship game, with a twist: instead of controlling the spaceship with arrow keys, you control it with your hand." skills={["React.js", "Javascript"]} bookmarked={true}/>
+                    <Cell title="CodeML Exo" description="As a team, built an ML model trained to predict bus ridership on buses where sensor data is missing." skills={["Python", "Tensorflow", "KerasTuner", "Pandas", "Numpy"]}/>
+                    <Cell title="SAP Mechanic" description="As part of ConuHacks 2024, our team built a web-based internal application for optimizing scheduling times of an auto repair shop while reducing losses." skills={["React.js", "Javascript"]}/>
                 </div>
             </div>
         </div>

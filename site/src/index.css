@@ -57,6 +57,10 @@ li::marker {
     font-size: 24px;
 }
 
+.font12px {
+    font-size: 12px;
+}
+
 .flex {
     display: flex;
 }
@@ -110,13 +114,40 @@ li::marker {
     width: 397px;
     background-image: url('../../assets/cell_svg.svg');
     background-repeat: no-repeat;
-    border: 1px solid red;
+    margin: 20px;
+}
+
+.cell2 {
+    height: 384px;
+    width: 397px;
+    background-image: url('../../assets/cell2.svg');
+    background-repeat: no-repeat;
+    margin: 20px;
 }
 
 .celltext {
-    border: 2px solid cyan;
-    margin-left: 38px;
-    margin-top: 97px;
+    position: absolute;
+    width: 300px;
+    margin-left: 43px;
+    margin-top: 75px;
+}
+
+.celltext h2 {
+    font-family: 'Orbitron';
+    font-size: 32px;
+}
+
+.celltext p {
+    font-family: 'Gotham Medium';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.cellSkills {
+    position: relative;
+    width: 300px;
+    top: 313px;
+    left: 43px;
 }
 
 /* .decoration {
@@ -199,7 +230,7 @@ li::marker {
 }
 
 #myPhoto {
-
+    width: 375px;
 }
 
 #aboutmep1 {
@@ -208,4 +239,10 @@ li::marker {
 
 #aboutmep3 {
     width: 900px;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
