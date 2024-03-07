@@ -28,8 +28,8 @@ const Front = () => {
             {/* About Me */}
             <div>
                 <div className='headings'>
-                    <img src="../../assets/separation.svg" alt="separator" className='separator'/>
-                    <h2 id="aboutme">About me</h2>
+                    <img src="../../assets/separation.svg" alt="separator" id="aboutme" className='separator'/>
+                    <h2>About me</h2>
                 </div>
                 <div className="gotham font24px spaceEvenly">
                     <div>
@@ -54,7 +54,7 @@ const Front = () => {
             {/* Projects Cells */}
         <div>
             <div className='headings'>
-                    <img src="../../assets/separation.svg" alt="separator" className='separator'/>
+                    <img src="../../assets/separation.svg" alt="separator" id="projects" className='separator'/>
                     <h2>Projects</h2>
                 </div>
                 <div id='projects'>
