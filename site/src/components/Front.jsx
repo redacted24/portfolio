@@ -29,7 +29,7 @@ const Front = () => {
             <div>
                 <div className='headings'>
                     <img src="../../assets/separation.svg" alt="separator" className='separator'/>
-                    <h2>About me</h2>
+                    <h2 id="aboutme">About me</h2>
                 </div>
                 <div className="gotham font24px spaceEvenly">
                     <div>
