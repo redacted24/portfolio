@@ -50,10 +50,9 @@ const Front = () => {
                     <img src='../../assets/photome.jpg' alt='photo of me' id='myPhoto'/>
                 </div>
             </div>
-
             {/* Projects Cells */}
-        <div>
-            <div className='headings'>
+            <div>
+                <div className='headings'>
                     <img src="../../assets/separation.svg" alt="separator" id="projects" className='separator'/>
                     <h2>Projects</h2>
                 </div>
